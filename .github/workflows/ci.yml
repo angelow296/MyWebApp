@@ -33,7 +33,7 @@ jobs:
         run: dotnet restore
 
       - name: Verify code format
-        run: dotnet format --check MyWebApp/MyWebApp.csproj 
+        run: dotnet format
 
       - name: Static code analysis
         run: dotnet analyze
